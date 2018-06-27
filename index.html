@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body>
+
+  <nav>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <span class="hamburger" onclick="openNav()"><i class="fas fa-bars"></i></span>
+  </nav>
+
+  <header>
+    <div class="header">
+      <!-- <img class="center-block header-img img-responsive" src="images/header.jpg" alt="placeholder"> -->
+      <div class="overlay">
+        <h1>A Place For...</h1>
+        <div class="btn-group" id="btn-override">
+          <button id="button-styling" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Filters <span class="caret"></span>
+          </button>
+
+            <div class="dropdown-menu">
+              <button class="btn btn-default filter-button" data-filter="all">All</button>
+              <button class="btn btn-default filter-button" data-filter="vegans">Vegans</button>
+              <button class="btn btn-default filter-button" data-filter="vegetarians">Vegetarians</button>
+              <button class="btn btn-default filter-button" data-filter="dog-lovers">Dog Lovers</button>
+              <button class="btn btn-default filter-button" data-filter="families">Families</button>
+              <button class="btn btn-default filter-button" data-filter="fine-dining">Fine Dining</button>
+              <button class="btn btn-default filter-button" data-filter="fast-food">Fast Food</button>
+              <button class="btn btn-default filter-button" data-filter="gluten-free">Gluten Free</button>
+              <button class="btn btn-default filter-button" data-filter="beer-gardens">Beer Gardens</button>
+            </div>
+          <div class="desktop-filter">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="vegans">Vegans</button>
+            <button class="btn btn-default filter-button" data-filter="vegetarians">Vegetarians</button>
+            <button class="btn btn-default filter-button" data-filter="dog-lovers">Dog Lovers</button>
+            <button class="btn btn-default filter-button" data-filter="families">Families</button>
+            <button class="btn btn-default filter-button" data-filter="fine-dining">Fine Dining</button>
+            <button class="btn btn-default filter-button" data-filter="fast-food">Fast Food</button>
+            <button class="btn btn-default filter-button" data-filter="gluten-free">Gluten Free</button>
+            <button class="btn btn-default filter-button" data-filter="beer-gardens">Beer Gardens</button>
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <section>
+    <div class="container filter-gallery container-main">
+      <div class="row">
+        <br/>
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 filter vegans vegetarians fast-food families">
+          <img src="images/image-size-test.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Rola Wala</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Vegans
+                </li>
+                <li>
+                  Vegetarians
+                </li>
+                <li>
+                  Fast Food
+                </li>
+                <li>
+                  Families
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 filter families beer-gardens">
+          <img src="images/dry-dock.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Dry Dock</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Families
+                </li>
+                <li>
+                  Beer Garden
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter dog-lovers beer-gardens">
+          <img src="images/nation.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Nation of Shopkeepers</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Dog lovers
+                </li>
+                <li>
+                  Beer Garden
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter fine-dining">
+          <img src="images/man-curtain.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">The Man Behind the Curtain</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Fine Dining
+                </li>
+                <li>
+                  Beer Garden
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter fast-food vegetarians vegans gluten-free">
+          <img src="images/humpit.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Humpit</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Vegetarian
+                </li>
+                <li>
+                  Vegan
+                </li>
+                <li>
+                  Gluten Free
+                </li>
+                <li>
+                  Fast food
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter beer-gardens vegetarians">
+          <img src="images/white-swan.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">The White Swan</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Beer Garden
+                </li>
+                <li>
+                  Vegetarian
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter dog-lovers vegetarians vegans">
+          <img src="images/adelphi.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">The Adelphi</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Dog Lovers
+                </li>
+                <li>
+                  Vegetarian
+                </li>
+                <li>
+                  Vegan
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter gluten-free">
+          <img src="images/oxford-place.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">2 Oxford Place</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  GLuten Free
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter vegans vegetarians fine-dining">
+          <img src="images/home.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Home</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Vegetarian
+                </li>
+                <li>
+                  Vegan
+                </li>
+                <li>
+                  Fine Dining
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter vegetarians vegans gluten-free">
+          <img src="images/my-thai.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">My Thai</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Vegetarian
+                </li>
+                <li>
+                  Vegan
+                </li>
+                <li>
+                  Gluten Free
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter families beer-gardens">
+          <img src="images/parkside.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Parkside Tavern</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Families
+                </li>
+                <li>
+                  Beer Garden
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter families fast-food vegans vegetarians gluten-free ">
+          <img src="images/mylahore.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">MyLahore</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Vegetarian
+                </li>
+                <li>
+                  Vegan
+                </li>
+                <li>
+                  Gluten Free
+                </li>
+                <li>
+                  Families
+                </li>
+                <li>
+                  Fast Food
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter fast-food dog-lovers">
+          <img src="images/the-place.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">The Place</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Fast Food
+                </li>
+                <li>
+                  Dog Lovers
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter families gluten-free">
+          <img src="images/fazenda.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Fazenda</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Families
+                </li>
+                <li>
+                  Gluten Free
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter fine-dining gluten-free">
+          <img src="images/gaucho.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Gaucho</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Fine Dining
+                </li>
+                <li>
+                  Gluten Free
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter families dog-lovers gluten-free">
+          <img src="images/new-conservatory.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">The New Conservatory</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Families
+                </li>
+                <li>
+                  Gluten Free
+                </li>
+                <li>
+                  Dog Lovers
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter gluten-free fast-food vegetarians vegans families dog-lovers">
+          <img src="images/falafel.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Falafel Guys</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Families
+                </li>
+                <li>
+                  Gluten Free
+                </li>
+                <li>
+                  Dog Lovers
+                </li>
+                <li>
+                  Vegetarians
+                </li>
+                <li>
+                  Vegans
+                </li>
+                <li>
+                  Fast food
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter beer-gardens">
+          <img src="images/headrow.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Headrow House</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Beer Garden
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter fine-dining">
+          <img src="images/dakota.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Dakota</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Fine Dining
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-12 filter fine-dining gluten-free">
+          <img src="images/viceandvirtue.jpg" class="img-responsive">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="text-center">Vice and Virtue</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-6 text-center restuarant-link">
+              <p>
+                Visit their website!
+              </p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <ul>
+                <li>
+                  Fine Dining
+                </li>
+                <li>
+                  Gluten Free
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-6 col-xs-12 ">
+            <h3 class="text-center"> Sign up to recieve the lastest info on the hottest places </h3>
+            <ul>
+              <li>
+                <div class="input-append newsletter-box text-center">
+                  <input type="text" class="text-center full" placeholder="Email ">
+                  <button class="btn bg-gray" type="button"> Sign up <i class="fa fa-long-arrow-right"> </i> </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
+              <h3 class="text-center"> Follow us on Social Media </h3>
+            <ul class="social">
+              <li> <a href="#"> <i class="fab fa-facebook">   </i> </a> </li>
+              <li> <a href="#"> <i class="fab fa-twitter">   </i> </a> </li>
+              <li> <a href="#"> <i class="fab fa-instagram">   </i> </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
